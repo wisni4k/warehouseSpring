@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>pl.warehouse</groupId>
+    <artifactId>warehouseSpring</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>pl.warehouse.admin</groupId>
+  <artifactId>warehouseAdm</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>warehouseAdm</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+  </dependencies>
+  <modules>
+    <module>warehouseAdm-api</module>
+    <module>warehouseAdm-rest</module>
+    <module>warehouseAdm-model</module>
+    <module>warehouseAdm-web</module>
+  </modules>
+</project>
