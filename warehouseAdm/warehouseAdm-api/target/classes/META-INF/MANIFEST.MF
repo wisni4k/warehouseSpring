@@ -2,8 +2,9 @@ Manifest-Version: 1.0
 Implementation-Title: warehouseAdm-api
 Implementation-Version: 1.0-SNAPSHOT
 Built-By: Wisnia
-Implementation-Vendor-Id: pl.warehouse.admin
+Implementation-Vendor-Id: pl.warehouse.admin.api
 Build-Jdk: 1.8.0_65
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: pl.warehouse.admin.web.App
 

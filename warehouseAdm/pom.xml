@@ -9,7 +9,6 @@
   <groupId>pl.warehouse.admin</groupId>
   <artifactId>warehouseAdm</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
   <name>warehouseAdm</name>
   <url>http://maven.apache.org</url>
   <dependencies>
