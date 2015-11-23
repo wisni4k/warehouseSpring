@@ -25,8 +25,17 @@
                         <version>${spring-loaded.version}</version>
                     </dependency>
                 </dependencies>
+            </plugin>        
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>pl.warehouse.admin.web.App</mainClass>
+                </configuration>
             </plugin>
-        </plugins>
+        
+    	</plugins>
     </build>
 
 </project>
